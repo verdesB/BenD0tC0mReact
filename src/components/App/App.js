@@ -1,6 +1,8 @@
 import Header from "../Header"
 import Home from "../Home"
 import About from "../About"
+import Services from "../Services"
+import Contact from "../Contact"
 import './global.scss'
 
 const App = () => {
@@ -10,6 +12,8 @@ const App = () => {
         <main>
             <Home/>
             <About/>
+            <Services/>
+            <Contact/>
 
 
         </main> 

@@ -1,0 +1,53 @@
+.services {
+    &__text {
+        text-align: center;
+         color: white;
+    }
+    &__text h2{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+       
+    }
+    &__text h4 {
+        font-size: 1.2rem;
+
+    }
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        text-align: center;
+        margin-top: 4rem;
+        color: white;
+    }
+    &__box {
+        padding: 3rem 2rem;
+        border-radius: 1rem;
+        border: 1px solid white;
+        cursor: pointer;
+        transition: all ease .50s;
+    }
+    &__box img {
+        width: 5rem;
+        margin-bottom: 1rem;
+        
+    }
+    &__box h3{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    &__box p {
+        line-height: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    &__box:hover{
+        transform: scale(1.1) translateY(- 0.4rem);
+    }
+    &__btn {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+    }
+    
+}
