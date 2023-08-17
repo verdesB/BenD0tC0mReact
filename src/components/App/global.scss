@@ -1,0 +1,20 @@
+@font-face{
+    font-family: ApplePomme;
+    src:
+    url(../../assets/font/SFNSText-Regular.otf);
+    
+};
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: ApplePomme;
+    scroll-behavior: smooth;
+};
+body {
+    background-color: black;
+}
+section {
+    padding: 120px 19% 100px;
+}
