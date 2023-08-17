@@ -3,6 +3,7 @@ import Home from "../Home"
 import About from "../About"
 import Services from "../Services"
 import Contact from "../Contact"
+import Skills from "../Skills"
 import './global.scss'
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
             <Home/>
             <About/>
             <Services/>
+            <Skills/>
             <Contact/>
 
 
