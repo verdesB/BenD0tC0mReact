@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<g id="Calque-1" vectornator:layerName="Calque 1">
+<path d="M311.792 289.882C284.178 289.882 261.792 312.268 261.792 339.882L261.792 739.882C261.792 767.497 284.178 789.882 311.792 789.882L711.792 789.882C739.407 789.882 761.792 767.497 761.792 739.882L761.792 339.882C761.792 312.268 739.407 289.882 711.792 289.882L311.792 289.882ZM328.292 339.882L688.292 339.882C699.338 339.882 708.292 348.837 708.292 359.882L708.292 719.882C708.292 730.928 699.338 739.882 688.292 739.882L328.292 739.882C317.247 739.882 308.292 730.928 308.292 719.882L308.292 359.882C308.292 348.837 317.247 339.882 328.292 339.882Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1.15935"/>
+<path d="M761.792 252.382C761.792 223.94 784.85 200.882 813.292 200.882C841.735 200.882 864.792 223.94 864.792 252.382C864.792 280.825 841.735 303.882 813.292 303.882C784.85 303.882 761.792 280.825 761.792 252.382Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1.15935" vectornator:layerName="Ovale 1"/>
+<path d="M628.988 402.369L651.292 460.123L600.122 459.039C583.924 458.696 570.792 471.759 570.792 488.216L571.457 744.285L508.292 743.947L508.292 441.356C508.292 419.442 525.781 401.777 547.355 401.901L628.988 402.369Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1.15935" vectornator:layerName="Rectangle 1"/>
+<path d="M446.744 530.379L651.292 530.379L637.599 584.896L446.744 586.247L446.744 530.379Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1.15935" vectornator:layerName="Rectangle 2"/>
+</g>
+</svg>
