@@ -28,15 +28,52 @@ const Skills = () => {
                 <h3>Be unique</h3>
             </div>
             <div class="skills__layout">
-            <div><img src={html}></img></div>
-            <div><img src={css}></img></div>
-            <div><img src={sass}></img></div>
-            <div><img src={npm}></img></div>
-            <div><img src={javascript}></img></div>
-            <div><img src={node}></img></div>
-            <div><img src={express}></img></div>
-            <div><img src={react}></img></div>
-            <div><img src={postgre}></img></div>
+            <div className="skills__technos" >
+                <img src={html}></img>
+                <h3>Html</h3>
+            <p>voila ce que je sais faire en html</p>
+            </div>
+
+            <div className="skills__technos">
+                <img src={css}></img>
+                   <h3>Html</h3>
+            <p>voila ce que je sais faire en html</p>
+                </div>
+            <div className="skills__technos">
+                <img src={sass}></img>
+                   <h3>Html</h3>
+            <p>voila ce que je sais faire en html</p>
+                </div>
+            <div className="skills__technos">
+                <img src={npm}></img>
+                   <h3>Html</h3>
+            <p>voila ce que je sais faire en html</p>
+                </div>
+            <div className="skills__technos">
+                <img src={javascript}></img>
+                   <h3>Html</h3>
+            <p>voila ce que je sais faire en html</p>
+                </div>
+            <div className="skills__technos">
+                <img src={node}></img>
+                   <h3>Html</h3>
+            <p>voila ce que je sais faire en html</p>
+                </div>
+            <div className="skills__technos">
+                <img src={express}></img>
+                   <h3>Html</h3>
+            <p>voila ce que je sais faire en html</p>
+                </div>
+            <div className="skills__technos">
+                <img src={react}></img>
+                   <h3>Html</h3>
+            <p>voila ce que je sais faire en html</p>
+                </div>
+            <div className="skills__technos">
+                <img src={postgre}></img>
+                   <h3>Html</h3>
+            <p>voila ce que je sais faire en html</p>
+                </div>
             
             </div>
         </section>

@@ -1,22 +1,70 @@
-.skills{
+.skills {
+    
     &__text {
         color: white;
         text-align: center;
     }
-    &__text h2{
-        font-size: 2rem;
+
+    &__text h2 {
+        font-size: 2.5rem;
         margin-bottom: 1rem;
     }
-    &__text h4{
-        font-size: 1.2rem;
-    }
-    &__layout{
-    
 
-    display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-        align-items: center;
+    &__text h3 {
+        font-size: 1.2rem;
+        margin-bottom: 4rem;
+    }
+   
+   &__layout {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+       justify-content: center;
+       align-items: center;
+       gap: 2rem;
+    }
+    &__layout div {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        gap: 2rem;
+        align-items: center;
+        position: relative;
+        
+        gap: 4rem;
+        border: 1px solid white;
+        border-radius: 1rem;
+        cursor: pointer;
+        transition: all ease .50s;
+        transition: transform 0.3s;
+    z-index: 1;
+        
+        
+        
+    }
+    &__layout div img {
+       max-width: 50%;
+
+    }
+
 }
+.skills__technos h3,
+.skills__technos p {
+    opacity: 0;
+    display: none;
+    
+    
+}
+.skills__technos:hover{
+    z-index: 200;
+    transform: scale(1.1) translateY(- 0.4rem);
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    
+}
+.skills__technos:hover h3,
+.skills__technos:hover p {
+    opacity: 1;
+    color: white;
+    display: block;
+    
 }
