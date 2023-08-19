@@ -28,15 +28,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: relative;
         
-        gap: 4rem;
-        border: 1px solid white;
+        
         border-radius: 1rem;
         cursor: pointer;
         transition: all ease .50s;
-        transition: transform 0.3s;
-    z-index: 1;
+        
+    
         
         
         
@@ -45,22 +43,24 @@
        max-width: 50%;
 
     }
+    &__technos h3+p {
+        display: none;
+    }
+    &__technos h3+p:hover {
+        display: none;
+    }
 
-}
-.skills__technos h3,
-.skills__technos p {
-    opacity: 0;
-    display: none;
-    
-    
-}
-.skills__technos:hover{
-    z-index: 200;
-    transform: scale(1.1) translateY(- 0.4rem);
+    &__technos:hover {
+        transform: scale(1.1) translateY(- 0.4rem);
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    
+    border: 1px solid white;
+
+    }
+
 }
+
+
 .skills__technos:hover h3,
 .skills__technos:hover p {
     opacity: 1;
