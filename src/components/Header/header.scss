@@ -22,10 +22,25 @@
     }
     &__list {
         
-        list-style-type: none;
         display: flex;
-        flex-direction: row;
         gap: 1rem;
+        flex-direction: column;
+        padding: 2rem;
+       // gap: 1rem;
+    }
+    .closed {
+        position: absolute;
+        right: 2rem;
+        top: -150rem;
+        list-style-type: none;
+    }
+    .show {
+        position: absolute;
+        top: 5.5rem;
+        right: 2.5rem;
+        z-index: 0;
+        border: 1px solid white;
+        transition: all ease-in-out 0.3s;
     }
     &__list li a {
         color: white;
@@ -34,11 +49,22 @@
 }
 .menu {
     font-size: 42px;
-    background-image: url(../../assets/icon/Menuwhite.svg);
+    background: url(../../assets/icon/Menuwhite.svg), black;
     z-index: 1001;
     cursor: pointer;
-    width: 42px;
-    height: 42px;
-    display: none;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 0.1rem;
+    transition: all ease-in-out 0.1s;
     
+}
+.menu:hover {
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+.menu:active {
+ border: none;
 }

@@ -4,6 +4,7 @@ import About from "../About"
 import Services from "../Services"
 import Contact from "../Contact"
 import Skills from "../Skills"
+import './mixin.scss'
 import './global.scss'
 
 const App = () => {
