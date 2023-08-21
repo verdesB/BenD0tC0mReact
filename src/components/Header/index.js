@@ -1,19 +1,18 @@
 import './header.scss'
-import menuEvent from './function'
-import { useEffect } from 'react'
+
+import { useState } from 'react'
 
 const Header = () => {
-
-    useEffect(() => {
-        menuEvent();
-    }, []);
+    const [menuOpen, setMenuOpen] = useState(false);
+  
     
     return(
         <header className="header">
             <nav className='header__nav'>
                 <h2 className='header__logo'>Portfolio</h2>
-                <button className='menu'></button> 
-                <ul className='header__list closed'>
+                <button className='menu' onClick={() => setMenuOpen(!menuOpen)}></button>
+
+                <ul className={`header__list ${menuOpen ? 'show' : 'closed'}`}>
                     <li ><a href="#home">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#services">Services</a></li>

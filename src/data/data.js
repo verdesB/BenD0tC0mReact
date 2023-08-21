@@ -1,7 +1,9 @@
 const data = [
     {
-        img: "../../assets/icon/code.svg"
-        service: "Intégration";
+        img: "../../assets/icon/code.svg",
+        service: "Intégration",
+        
+
 
     }
 ]

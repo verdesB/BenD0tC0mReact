@@ -4,17 +4,20 @@
     url(../../assets/font/SFNSText-Regular.otf);
     
 };
-
+html{
+    scroll-behavior: smooth;
+    }
 *{
     padding: 0;
     margin: 0;
     box-sizing: 0;
     font-family: ApplePomme;
-    scroll-behavior: smooth;
+    
 };
 body {
     background-color: black;
+    
 }
 section {
-    padding: 120px 19% 100px;
+    padding: 120px 15% 100px;
 }
