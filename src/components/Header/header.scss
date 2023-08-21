@@ -41,9 +41,11 @@
         top: 10vh;
         right: 5%;
         opacity: 1;
-        
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(1px);
         border: 1px solid white;
         transition: all ease-in-out 0.3s;
+        list-style-type: none;
     }
     &__list li a {
         color: white;
@@ -52,7 +54,7 @@
     }
     &__list li a:hover {
         border-bottom: solid 1px #FC5185;
-        transition: border-width 0.9s linear;
+        transition: 0.9s linear;
     }
 }
 .menu {

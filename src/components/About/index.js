@@ -1,5 +1,5 @@
 import './about.scss'
-import image from '../../assets/icon/ben.png'
+import image from '../../assets/icon/ben2.png'
 
 const About = () => {
     return(
