@@ -1,6 +1,6 @@
 import code from '../../assets/icon/code.svg';
-import prog from '../../assets/icon/prog.png';
-import data from '../../assets/icon/data.png'
+import prog from '../../assets/icon/Prog.png';
+import data from '../../assets/icon/Data.png'
 
 
 export const services = [
