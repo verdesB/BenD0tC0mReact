@@ -16,11 +16,12 @@
     }
    
    &__layout {
+    box-sizing: border-box;
        display: grid;
        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-       justify-content: center;
-       align-items: center;
+       
        gap: 2rem;
+       margin-bottom: 10rem;
     }
     &__layout div {
         box-sizing: border-box;
@@ -32,7 +33,7 @@
         
         border-radius: 1rem;
         cursor: pointer;
-        transition: all ease .50s;
+        //transition: all ease .50s;
         
     
         
@@ -51,7 +52,7 @@
     }
 
     &__technos:hover {
-        transform: scale(1.1) translateY(- 0.4rem);
+    transform: scale(1.1) translateY(- 0.4rem);
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
     border: 1px solid white;
@@ -61,10 +62,10 @@
 }
 
 
-.skills__technos:hover h3,
-.skills__technos:hover p {
-    opacity: 1;
-    color: white;
-    display: block;
-    
-}
+//.skills__technos:hover h3,
+//.skills__technos:hover p {
+//    opacity: 1;
+//    color: white;
+//    display: block;
+//    
+//}

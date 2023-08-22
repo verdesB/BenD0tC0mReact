@@ -6,6 +6,7 @@ import Contact from "../Contact"
 import Skills from "../Skills"
 import './mixin.scss'
 import './global.scss'
+import { services } from "../Services/data"
 
 const App = () => {
     return(
@@ -14,7 +15,7 @@ const App = () => {
         <main>
             <Home/>
             <About/>
-            <Services/>
+            <Services services={services}/>
             <Skills/>
             <Contact/>
 

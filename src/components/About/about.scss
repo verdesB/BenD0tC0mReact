@@ -3,7 +3,13 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     align-items: center;
     gap: 4rem;
-    
+    &__img{
+        border-radius: 50%;
+       // border: 1px solid white;
+       -webkit-box-shadow: 18px 10px 5px 0px rgba(148,148,148,1);
+       -moz-box-shadow: 18px 10px 5px 0px rgba(148,148,148,1);
+       box-shadow: 18px 10px 5px 0px rgba(148,148,148,1);
+    }
     &__img img {
         height: auto;
         width: 100%;
