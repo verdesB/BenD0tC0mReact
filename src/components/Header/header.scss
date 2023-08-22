@@ -39,7 +39,8 @@
     .show {
         position: absolute;
         top: 10vh;
-        right: 5%;
+        left: 0;
+        width: 100vw;
         opacity: 1;
         background-color: rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(1px);
@@ -53,8 +54,8 @@
         
     }
     &__list li a:hover {
-        border-bottom: solid 1px #FC5185;
-        transition: 0.9s linear;
+        border-bottom: solid 1px #ff4d005b;
+        transition:  0.9s linear;
     }
 }
 .menu {

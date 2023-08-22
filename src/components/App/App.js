@@ -2,8 +2,10 @@ import Header from "../Header"
 import Home from "../Home"
 import About from "../About"
 import Services from "../Services"
+import Works from "../Works/Works"
 import Contact from "../Contact"
 import Skills from "../Skills"
+
 import './mixin.scss'
 import './global.scss'
 import { services } from "../Services/data"
@@ -16,6 +18,7 @@ const App = () => {
             <Home/>
             <About/>
             <Services services={services}/>
+            <Works/>
             <Skills/>
             <Contact/>
 
