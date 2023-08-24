@@ -25,6 +25,7 @@
     &__socials {
         display: flex;
         justify-content: center;
+        transition: all ease .50s;
     }
     &__socials ul {
         display: flex;
@@ -60,7 +61,7 @@
         box-sizing: border-box;
         border: 1px solid white;
         border-radius: 1rem;
-        padding: 2rem 3rem;
+        padding: 1rem 2rem;
         color: white;
         
     }
