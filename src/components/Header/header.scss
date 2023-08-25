@@ -21,11 +21,13 @@
        
     }
     &__list {
-        
+        text-align: center;
         display: flex;
         gap: 1rem;
         flex-direction: column;
-        padding: 2rem;
+        justify-content: center;
+        align-items: end;
+        
         z-index: 0;
        opacity: 0;
     }
@@ -40,11 +42,18 @@
     .show {
         position: absolute;
         top: 10vh;
-        left: 0;
-        width: 100vw;
+        right: 0;
+        width: 100%;
         opacity: 1;
         background-color: rgba(255, 255, 255, 0.5);
-        backdrop-filter: blur(1px);
+        background-image: url(../../assets/icon/Maui.svg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        
+        -webkit-backdrop-filter: saturate(70%) blur(40px);
+        backdrop-filter: saturate(70%) blur(40px);
+        
         z-index: 300;
         transition: all ease-in-out 0.5s;
         list-style-type: none;
@@ -52,6 +61,7 @@
     &__list li a {
         color: white;
         text-decoration: none;
+        margin-right: 8rem;
         
     }
     &__list li a:hover {
