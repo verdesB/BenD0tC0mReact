@@ -26,7 +26,7 @@ const Works = () => {
                     </div>
 
 
-                    <h3>DashBoard</h3>
+                    <h3>Todo list</h3>
                     <p>Petit projet ....</p>
                     <button href='#' >
                         Visit
