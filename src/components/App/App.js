@@ -9,6 +9,7 @@ import Skills from "../Skills"
 import './mixin.scss'
 import './global.scss'
 import { services } from "../Services/data"
+import { works } from "../Works/data"
 
 const App = () => {
     return(
@@ -18,7 +19,7 @@ const App = () => {
             <Home/>
             <About/>
             <Services services={services}/>
-            <Works/>
+            <Works works={works}/>
             <Skills/>
             <Contact/>
 

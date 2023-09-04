@@ -25,9 +25,11 @@
     &__box {
         padding: 3rem 2rem;
         border-radius: 1rem;
-        border: 1px solid white;
+       // border: 1px solid white;
         cursor: pointer;
         transition: all ease .50s;
+        box-shadow:  8px 8px 16px #1b1b1b,
+             -8px -8px 16px #252525;
     }
     &__box img {
        width: 5rem;

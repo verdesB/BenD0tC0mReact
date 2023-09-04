@@ -26,9 +26,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid white;
+       // border: 1px solid white;
         border-radius: 1rem;
+        cursor: pointer;
         transition: all ease .50s;
+        box-shadow:  8px 8px 16px #1b1b1b,
+             -8px -8px 16px #252525;
         
     }
     &__item:hover {
