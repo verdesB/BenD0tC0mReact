@@ -1,5 +1,5 @@
 import './header.scss'
-
+import logo from '../../assets/icon/logovb.svg'
 import { useState } from 'react'
 
 const Header = () => {
@@ -9,6 +9,7 @@ const Header = () => {
     return(
         <header className="header">
             <nav className='header__nav'>
+                <img src={logo} className='header__img'></img>
                 <h2 className='header__logo'>Portfolio</h2>
                 <button className='menu' onClick={() => setMenuOpen(!menuOpen)}></button>
 
