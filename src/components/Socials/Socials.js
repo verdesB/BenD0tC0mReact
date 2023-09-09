@@ -1,4 +1,4 @@
-import github from "../../assets/icon/github.svg"
+import github from '../../assets/icon/github.svg'
 import linkedin from'../../assets/icon/linkedin.svg'
 import './socials.scss'
 
