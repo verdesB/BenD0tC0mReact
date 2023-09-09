@@ -1,5 +1,5 @@
 import github from '../../assets/icon/Github.svg'
-import linkedin from'../../assets/icon/linkedin.svg'
+import linkedin from'../../assets/icon/Linkedin.svg'
 import './socials.scss'
 
 const Socials = () => {
