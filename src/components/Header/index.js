@@ -1,6 +1,7 @@
 import './header.scss'
 import logo from '../../assets/icon/logovb.svg'
 import { useState } from 'react'
+import Socials from '../Socials/Socials'
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -22,6 +23,7 @@ const Header = () => {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <Socials/>
         </header>
         
     )

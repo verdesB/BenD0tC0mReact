@@ -6,16 +6,19 @@ import Works from "../Works/Works"
 import Contact from "../Contact"
 import Skills from "../Skills"
 
+
 import './mixin.scss'
 import './global.scss'
 import { services } from "../Services/data"
 import { works } from "../Works/data"
+import Socials from "../Socials/Socials"
 
 const App = () => {
     return(
         <>
         <Header/>
         <main>
+            
             <Home/>
             <About/>
             <Services services={services}/>

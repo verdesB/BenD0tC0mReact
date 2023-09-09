@@ -10,13 +10,7 @@ const Contact = () => {
                 <h4>I won't bite</h4>
             </div>
             <div className='contact__container'>
-            <div className="contact__socials">
-                <ul>
-                    <li><a href='#'><img src={github}></img></a></li>
-                    <li><a href='#'><img src={linkedin}></img></a></li>
-                </ul>
-
-            </div>
+            
             <div className="contact__form">
                 <form>
                     <label for="name">Nom:</label>

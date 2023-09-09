@@ -22,33 +22,33 @@
         justify-content: center;
         gap: 4rem;
     }
-    &__socials {
-        display: flex;
-        justify-content: center;
-        transition: all ease .50s;
-    }
-    &__socials ul {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        gap: 2rem;
-    }
-    &__socials li{
-        border: 1px solid white;
-        border-radius: 1rem;
-    }
+   // &__socials {
+    //    display: flex;
+    //    justify-content: center;
+    //    transition: all ease .50s;
+    //}
+    //&__socials ul {
+    //    display: flex;
+    //    flex-direction: column;
+    //    width: 50%;
+    //    gap: 2rem;
+    //}
+    //&__socials li{
+    //    border: 1px solid white;
+    //    border-radius: 1rem;
+    //}
    
-    &__socials  li a {
-        
-        text-decoration: none;
-
-    }
+    //&__socials  li a {
+    //    
+    //    text-decoration: none;
+//
+    //}
     
-    &__socials  li:hover {
-        transform: scale(1.1) translateY(- 0.4rem);
-         transition: all ease .50s;
+    //&__socials  li:hover {
+    //    transform: scale(1.1) translateY(- 0.4rem);
+    //     transition: all ease .50s;
 
-    }
+    //}
     &__form {
         display: flex;
         justify-content: center;
