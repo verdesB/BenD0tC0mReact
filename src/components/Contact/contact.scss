@@ -54,15 +54,18 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        
     }
     &__form form{
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
-        border: 1px solid white;
+        //border: 1px solid white;
         border-radius: 1rem;
         padding: 1rem 2rem;
         color: white;
+        box-shadow:  8px 8px 16px #1b1b1b,
+             -8px -8px 16px #252525;
         
     }
     &__form form label{
@@ -73,17 +76,20 @@
         margin-bottom: 1rem;
         padding: 0.4rem 1rem;
         border-radius: 0.5rem;
-        border: 1px solid orangered;
+        border: none;
         max-width: 12rem;
+        box-shadow:  8px 8px 16px #1b1b1b,
+             -8px -8px 16px #252525;
     }
     &__form form textarea{
         padding: 0.1rem 0.2rem;
         margin-bottom: 1rem;
         resize: none;
-        
+        box-shadow:  8px 8px 16px #1b1b1b,
+             -8px -8px 16px #252525;
        
         
         border-radius: 0.5rem;
-        border: 1px solid orangered;
+        border: none;
     }
 }

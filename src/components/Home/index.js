@@ -7,7 +7,7 @@ const Home = () => {
                 <h3>Hello I' m</h3>
                 <h1>Verdès Benjamin</h1>
                 <h4>Web Developer - Front - Back</h4>
-                <button className='home__btn' href="#">My Works</button>
+                <a className='home__btn' href="#works">My Works</a>
             </div>
 
         </section>
